@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>رصد كول | صيانة تكييف وتبريد - الأحساء</title>
+<meta name="description" content="رصد كول لصيانة التكييف والتبريد في الأحساء: فك وتركيب وغسيل المكيفات، صيانة الثلاجات وغرف التبريد والتجميد، خدمة 24 ساعة وضمان على كل صيانة.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Ambient frost canvas (hero background only) ===== -->
+<canvas id="frost-canvas"></canvas>
+
+<!-- ===== Header ===== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" width="34" height="34">
+          <path d="M24 3 L24 45 M6 12 L42 36 M42 12 L6 36" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+          <circle cx="24" cy="24" r="5.5" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="logo-text">رصد <em>كول</em></span>
+    </div>
+    <nav class="main-nav" aria-label="التنقل الرئيسي">
+      <a href="#services">خدماتنا</a>
+      <a href="#why">لماذا رصد كول</a>
+      <a href="#about">من نحن</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+    <a class="nav-cta" href="tel:0537729330">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.4 21 3 13.6 3 4.6c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1z"/></svg>
+      0537729330
+    </a>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">الأحساء وضواحيها &mdash; خدمة ٢٤ ساعة</p>
+      <h1>لما الجو يخون، <span>رصد كول</span> يوصلك</h1>
+      <p class="hero-lead">
+        فك، تركيب، غسيل وصيانة كل أنواع المكيفات، وصيانة الثلاجات وغرف التبريد والتجميد
+        للمنازل والمطاعم والمنشآت الكبرى. فريق فني متمرس يوصل عندك بأقرب وقت، وكل صيانة
+        تطلع من عندنا معها ضمان.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="tel:0537729330">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.4 21 3 13.6 3 4.6c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1z"/></svg>
+          اتصل الآن
+        </a>
+        <a class="btn btn-secondary" href="https://wa.me/966537729330" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm5.9 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-2.9-1.2-4.8-4.1-5-4.3-.1-.2-1.2-1.6-1.2-3 0-1.4.7-2.1 1-2.4.3-.3.6-.4.8-.4h.6c.2 0 .5 0 .7.6.3.7.9 2.3 1 2.5.1.2.1.4 0 .6-.2.4-.3.5-.5.8-.2.2-.5.6-.2 1 .3.5 1.2 2 2.7 2.7 1.8.9 1.8.6 2.1.4.3-.2.6-.6.9-1 .2-.3.5-.3.8-.2.3.1 2 1 2.4 1.2.3.2.5.3.6.5.1.2.1.9-.1 1.3z"/></svg>
+          واتساب
+        </a>
+      </div>
+      <ul class="hero-badges">
+        <li>ضمان على كل صيانة</li>
+        <li>وصول سريع</li>
+        <li>خبرة في الأماكن العامة</li>
+      </ul>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <svg class="unit-svg" viewBox="0 0 320 260" width="100%" height="100%">
+        <defs>
+          <linearGradient id="unitBody" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#123249"/>
+            <stop offset="1" stop-color="#0a2033"/>
+          </linearGradient>
+        </defs>
+        <rect x="30" y="40" width="260" height="90" rx="16" fill="url(#unitBody)" stroke="#2f5b74" stroke-width="2"/>
+        <rect x="50" y="60" width="90" height="50" rx="6" fill="#0e2a3c" stroke="#3fd0ef" stroke-width="1.4" opacity="0.7"/>
+        <g stroke="#3fd0ef" stroke-width="2.2" stroke-linecap="round" opacity="0.85">
+          <line x1="160" y1="58" x2="270" y2="58"/>
+          <line x1="160" y1="70" x2="270" y2="70"/>
+          <line x1="160" y1="82" x2="270" y2="82"/>
+          <line x1="160" y1="94" x2="270" y2="94"/>
+          <line x1="160" y1="106" x2="270" y2="106"/>
+        </g>
+        <circle cx="95" cy="85" r="16" fill="none" stroke="#8fb7c9" stroke-width="1.6"/>
+        <g class="drip" opacity="0.9">
+          <path d="M95 130 q6 12 0 20 q-6 -8 0 -20 Z" fill="#5fd7ef"/>
+        </g>
+        <g class="drip drip-2" opacity="0.9">
+          <path d="M180 130 q6 12 0 20 q-6 -8 0 -20 Z" fill="#5fd7ef"/>
+        </g>
+        <g class="badge-24">
+          <circle cx="248" cy="188" r="42" fill="#0c2436" stroke="#c67b44" stroke-width="3"/>
+          <text x="248" y="182" text-anchor="middle" font-family="Tajawal" font-weight="800" font-size="26" fill="#f2f8fa">٢٤</text>
+          <text x="248" y="203" text-anchor="middle" font-family="Tajawal" font-weight="600" font-size="12" fill="#e2a268">ساعة خدمة</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Services ===== -->
+<section id="services" class="services">
+  <div class="container">
+    <p class="eyebrow center">خدماتنا</p>
+    <h2 class="section-title center">تبريد وتكييف، من الفك للتركيب للصيانة الدورية</h2>
+
+    <div class="service-grid">
+      <article class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" width="30" height="30"><path fill="currentColor" d="M6 14h36v6H6zM6 28h20v6H6zm26 0h10v6H32z"/></svg>
+        </div>
+        <h3>فك وتركيب وغسيل المكيفات</h3>
+        <p>تعقيم وغسيل كامل واستبدال قطع تالفة لكل أنواع المكيفات:</p>
+        <ul class="chip-list">
+          <li>سبلت</li>
+          <li>كونسول</li>
+          <li>دولابي</li>
+          <li>شباك</li>
+          <li>مركزي</li>
+        </ul>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" width="30" height="30"><path fill="currentColor" d="M12 4h24v40H12zm4 6v10h16V10zm0 14v14h6V24z"/></svg>
+        </div>
+        <h3>صيانة الثلاجات</h3>
+        <p>صيانة ثلاجات المنازل والمطاعم بجميع الأعطال: كمبروسر، غاز، ثرموستات، وتبريد ضعيف.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" width="30" height="30"><path fill="currentColor" d="M24 2 5 12v24l19 10 19-10V12zM24 8l14 7-14 7-14-7zM10 16l12 6v14l-12-6zm28 0v14l-12 6V22z"/></svg>
+        </div>
+        <h3>غرف التبريد والتجميد</h3>
+        <p>صيانة ومتابعة دورية لغرف التبريد والتجميد التجارية، مع كشف مبكر لأي خلل قبل ما يأثر على البضاعة.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Why us ===== -->
+<section id="why" class="why">
+  <div class="container">
+    <p class="eyebrow center">لماذا رصد كول</p>
+    <h2 class="section-title center">التزام واضح من أول اتصال</h2>
+
+    <div class="why-grid">
+      <div class="why-item">
+        <span class="why-num">وصول سريع</span>
+        <p>فريقنا يوصل عند العميل بأقرب وقت ممكن، بدون انتظار طويل.</p>
+      </div>
+      <div class="why-item">
+        <span class="why-num">ضمان شامل</span>
+        <p>كل صيانة تخرج من عندنا، المؤسسة تضمنها بالكامل.</p>
+      </div>
+      <div class="why-item">
+        <span class="why-num">خبرة بالمنشآت الكبرى</span>
+        <p>تعاملنا مع صيانة أماكن عامة زي الشركات والمستشفيات، ونعرف حساسية هالمواقع.</p>
+      </div>
+      <div class="why-item">
+        <span class="why-num">خدمة ٢٤ ساعة</span>
+        <p>اتصل وقت ما تحتاج، ليل أو نهار، وإحنا جاهزين.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== About ===== -->
+<section id="about" class="about">
+  <div class="container about-inner">
+    <div class="about-text">
+      <p class="eyebrow">من نحن</p>
+      <h2 class="section-title">فريق متخصص في التبريد والتكييف بالأحساء</h2>
+      <p>
+        رصد كول مؤسسة متخصصة في صيانة أنظمة التكييف والتبريد بكل أنواعها، من المكيفات المنزلية
+        إلى غرف التبريد والتجميد التجارية. نشتغل بخبرة فنية واضحة وأدوات مناسبة لكل حالة،
+        وهدفنا إن العميل يحصل على تبريد ثابت وموثوق سواء كان بيت، مطعم، شركة، أو مستشفى.
+      </p>
+    </div>
+    <div class="about-stats">
+      <div class="stat"><strong>٢٤/٧</strong><span>خدمة على مدار الساعة</span></div>
+      <div class="stat"><strong>ضمان</strong><span>على كل صيانة من المؤسسة</span></div>
+      <div class="stat"><strong>الأحساء</strong><span>تغطية داخل المدينة والضواحي</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contact ===== -->
+<section id="contact" class="contact">
+  <div class="container contact-inner">
+    <p class="eyebrow center">تواصل معنا</p>
+    <h2 class="section-title center">تحتاج صيانة؟ كلمنا الحين</h2>
+    <p class="contact-lead center">اتصل أو راسلنا على واتساب، ووضّح نوع الجهاز والعطل، وفريقنا يرتب لك أقرب موعد.</p>
+
+    <div class="contact-cards">
+      <a class="contact-card" href="tel:0537729330">
+        <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.4 21 3 13.6 3 4.6c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1z"/></svg>
+        <div>
+          <span class="contact-label">اتصال مباشر</span>
+          <span class="contact-value">0537729330</span>
+        </div>
+      </a>
+      <a class="contact-card" href="https://wa.me/966537729330" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm5.9 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-2.9-1.2-4.8-4.1-5-4.3-.1-.2-1.2-1.6-1.2-3 0-1.4.7-2.1 1-2.4.3-.3.6-.4.8-.4h.6c.2 0 .5 0 .7.6.3.7.9 2.3 1 2.5.1.2.1.4 0 .6-.2.4-.3.5-.5.8-.2.2-.5.6-.2 1 .3.5 1.2 2 2.7 2.7 1.8.9 1.8.6 2.1.4.3-.2.6-.6.9-1 .2-.3.5-.3.8-.2.3.1 2 1 2.4 1.2.3.2.5.3.6.5.1.2.1.9-.1 1.3z"/></svg>
+        <div>
+          <span class="contact-label">واتساب</span>
+          <span class="contact-value">راسلنا الآن</span>
+        </div>
+      </a>
+      <div class="contact-card contact-card-static">
+        <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+        <div>
+          <span class="contact-label">المدينة</span>
+          <span class="contact-value">الأحساء</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span class="logo-text small">رصد <em>كول</em></span>
+    <p>صيانة تكييف وتبريد &middot; الأحساء &middot; خدمة ٢٤ ساعة</p>
+  </div>
+</footer>
+
+<!-- ===== Floating action buttons ===== -->
+<div class="floating-actions">
+  <a class="fab fab-call" href="tel:0537729330" aria-label="اتصال هاتفي">
+    <span class="fab-ring"></span>
+    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.4 21 3 13.6 3 4.6c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1z"/></svg>
+    <span class="fab-tip">اتصال</span>
+  </a>
+  <a class="fab fab-whatsapp" href="https://wa.me/966537729330" target="_blank" rel="noopener" aria-label="واتساب">
+    <span class="fab-ring"></span>
+    <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.4 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm5.9 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.2-3.5-.7-2.9-1.2-4.8-4.1-5-4.3-.1-.2-1.2-1.6-1.2-3 0-1.4.7-2.1 1-2.4.3-.3.6-.4.8-.4h.6c.2 0 .5 0 .7.6.3.7.9 2.3 1 2.5.1.2.1.4 0 .6-.2.4-.3.5-.5.8-.2.2-.5.6-.2 1 .3.5 1.2 2 2.7 2.7 1.8.9 1.8.6 2.1.4.3-.2.6-.6.9-1 .2-.3.5-.3.8-.2.3.1 2 1 2.4 1.2.3.2.5.3.6.5.1.2.1.9-.1 1.3z"/></svg>
+    <span class="fab-tip">واتساب</span>
+  </a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
